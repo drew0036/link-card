@@ -1,9 +1,42 @@
 html {
   box-sizing: border-box;
   font-family: Georgia, serif;
-  font-family: "Dosis", sans-serif;
+  background-color: #f0eee8;
+  color: #785439;
+  line-height: 1.5rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+section {
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  background-color: #dcd4cd;
+  padding: 1rem;
+}
+
+.link-card h2 {
+  display: block;
+  color: #512200;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+}
+
+.div-dl {
+  border-bottom: 3px solid #9a816d;
+  border-top: 3px solid #9a816d;
+  margin: 0 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  color: #cabdb2;
+  padding: .4em .75em .5em;
+  background-color: #785439;
+  border-radius: 3px;
 }
