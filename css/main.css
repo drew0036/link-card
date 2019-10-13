@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia, serif;
   background-color: #f0eee8;
   color: #785439;
+  font-family: Georgia, serif;
   line-height: 1.5rem;
 }
 
@@ -10,33 +10,48 @@ html {
   box-sizing: inherit;
 }
 
-section {
+.link-card {
   border: 3px solid #9a816d;
   border-radius: 8px;
   background-color: #dcd4cd;
-  padding: 1rem;
+  padding: 0 1rem 1rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
 }
 
 .link-card h2 {
   display: block;
   color: #512200;
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
   font-size: 1.5rem;
 }
 
-.div-dl {
+p {
+  color: #512200;
+  font-size: 1rem;
+}
+
+.stats {
   border-bottom: 3px solid #9a816d;
   border-top: 3px solid #9a816d;
   margin: 0 0 1rem;
+  font-size: .875rem;
+}
+
+.div-btn {
+  text-align: center;
 }
 
 .btn {
   display: inline-block;
+  text-align: center;
   text-decoration: none;
-  font-family: "Dosis", sans-serif;
-  font-size: 1.5rem;
-  color: #cabdb2;
+  font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
+  color: #fff;
   padding: .4em .75em .5em;
   background-color: #785439;
-  border-radius: 3px;
+  border-radius: 8px;
 }
