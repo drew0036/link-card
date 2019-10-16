@@ -12,6 +12,10 @@ html {
 
 .link-card {
   text-decoration: none;
+  display: block;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  padding: 0 1rem 1rem;
 }
 
 .link-card:hover {
@@ -19,17 +23,10 @@ html {
 }
 
 .link-card:hover .btn {
-  background-color: #cabdb2;
+  background-color: #512200;
 }
 
-section {
-  border: 3px solid #9a816d;
-  border-radius: 8px;
-  background-color: #dcd4cd;
-  padding: 0 1rem 1rem;
-}
-
-a h2 {
+.link-card h2 {
   display: block;
   color: #512200;
   font-family: Dosis, sans-serif;
