@@ -16,7 +16,7 @@ html {
   border: 3px solid #9a816d;
   border-radius: 8px;
   background-color: #dcd4cd;
-  padding: 0 1rem 1rem;
+  padding: .25rem 1rem 1rem;
 }
 
 .link-card:hover {
@@ -49,13 +49,13 @@ a p {
 
 dt {
   display: inline-block;
-  width: 50%;
+  width: 49%;
 }
 
 dd {
   display: inline-block;
   margin: 0;
-  width: 40%;
+  width: 49%;
 }
 
 .div-btn {
