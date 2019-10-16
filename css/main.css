@@ -65,11 +65,12 @@ dd {
 .btn {
   display: inline-block;
   text-align: center;
-  padding: .4em .75em .5em;
   background-color: #785439;
   border-radius: 8px;
   text-decoration: none;
   font-family: Dosis, sans-serif;
   font-size: 1.125rem;
   color: #fff;
+  padding: .4em .75em .5em;
+  margin: 0
 }
