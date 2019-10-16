@@ -11,33 +11,42 @@ html {
 }
 
 .link-card {
-  border: 3px solid #9a816d;
-  border-radius: 8px;
-  background-color: #dcd4cd;
-  padding: 0 1rem 1rem;
+  text-decoration: none;
 }
 
 .link-card:hover {
   background-color: #cabdb2;
 }
 
-.link-card h2 {
+.link-card:hover .btn {
+  background-color: #cabdb2;
+}
+
+section {
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  background-color: #dcd4cd;
+  padding: 0 1rem 1rem;
+}
+
+a h2 {
   display: block;
   color: #512200;
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
 }
 
-p {
+a p {
   color: #512200;
   font-size: 1rem;
 }
 
 .stats {
-  border-bottom: 3px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
   border-top: 3px solid #9a816d;
   margin: 0 0 1rem;
   font-size: .875rem;
+  color: #512200;
 }
 
 dt {
