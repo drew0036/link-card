@@ -42,13 +42,13 @@ p {
 
 dt {
   display: inline-block;
-  width: 125px;
+  width: 50%;
 }
 
 dd {
   display: inline-block;
   margin: 0;
-  width: 100px;
+  width: 40%;
 }
 
 .div-btn {
@@ -58,11 +58,11 @@ dd {
 .btn {
   display: inline-block;
   text-align: center;
+  padding: .4em .75em .5em;
+  background-color: #785439;
+  border-radius: 8px;
   text-decoration: none;
   font-family: Dosis, sans-serif;
   font-size: 1.125rem;
   color: #fff;
-  padding: .4em .75em .5em;
-  background-color: #785439;
-  border-radius: 8px;
 }
