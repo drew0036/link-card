@@ -40,6 +40,17 @@ p {
   font-size: .875rem;
 }
 
+dt {
+  display: inline-block;
+  width: 125px;
+}
+
+dd {
+  display: inline-block;
+  margin: 0;
+  width: 100px;
+}
+
 .div-btn {
   text-align: center;
 }
